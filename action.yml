@@ -1,9 +1,23 @@
 name: 'MCP Logger'
-description: 'Instrument your MCP server with logging, traces, and error diagnostics'
+description: 'GitHub Action for MCP server observability — instrument your MCP server with structured logging, distributed traces, and error diagnostics directly in your CI/CD pipelines. Catch failures before your users do.'
 author: 'Solvo'
 branding:
   icon: 'activity'
   color: 'red'
+categories:
+  - 'Developer Tools'
+  - 'Monitoring'
+  - 'Continuous Integration'
+  - 'DevOps'
+tags:
+  - 'mcp'
+  - 'observability'
+  - 'logging'
+  - 'tracing'
+  - 'mcp-server'
+  - 'devops'
+  - 'instrumentation'
+  - 'github-action'
 inputs:
   server-id:
     description: 'Unique identifier for this MCP server'

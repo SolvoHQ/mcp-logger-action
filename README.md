@@ -1,6 +1,6 @@
 # MCP Logger GitHub Action
 
-Instrument your MCP servers with logging, traces, and error diagnostics directly in your CI/CD pipeline.
+GitHub Action for MCP server observability — instrument your MCP server with structured logging, distributed traces, and error diagnostics directly in your CI/CD pipelines. Catch failures before your users do.
 
 ## Usage
 
