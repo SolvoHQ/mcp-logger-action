@@ -1,0 +1,16 @@
+{
+  "name": "mcp-logger-action",
+  "version": "1.0.0",
+  "description": "GitHub Action for MCP Logger instrumentation",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "package": "npm run build && ncc build dist/index.js"
+  },
+  "devDependencies": {
+    "@actions/core": "^1.10.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "@vercel/ncc": "^0.38.0"
+  }
+}

@@ -1,0 +1,17 @@
+name: 'MCP Logger'
+description: 'Instrument your MCP server with logging, traces, and error diagnostics'
+author: 'Solvo'
+branding:
+  icon: 'activity'
+  color: 'red'
+inputs:
+  server-id:
+    description: 'Unique identifier for this MCP server'
+    required: true
+  endpoint:
+    description: 'MCP Logger backend endpoint'
+    required: false
+    default: 'https://mcp-logger-backend.vercel.app'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
